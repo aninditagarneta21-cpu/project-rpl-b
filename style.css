@@ -7,13 +7,13 @@ body {
   background-color: #e5e5e5;
 }
 
-.navbar{
+.navbar {
   z-index: 3;
 }
-*{
+* {
   z-index: 2;
 }
-.accent-benner{
+.accent-benner {
   z-index: 1;
 }
 /* navbar style */
@@ -60,7 +60,7 @@ body {
   line-height: 70px;
 }
 
-.text-hero p{
+.text-hero p {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -68,21 +68,36 @@ body {
   width: 85%;
 }
 
-.btn-lg{
+.btn-lg {
   width: 237px;
   height: 70px;
   font-size: 16px;
   font-weight: 700;
-  background-color:#fff ;
+  background-color: #fff;
   color: var(--pr-hijau);
   border: none;
 }
 
-
-
 /* end style hero */
 /* layanan style */
-#our-service{
+#our-service {
   height: 100vh;
 }
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.card-layanan {
+  height: 313px;
+  padding: 40px;
+  background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+  border-radius: 5px;
+  color: #fff;
+}
+
 /* end layanan*/
