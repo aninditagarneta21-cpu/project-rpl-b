@@ -81,7 +81,13 @@ body {
 /* end style hero */
 /* layanan style */
 #our-service {
-  height: 100vh;
+  padding: 100px 0;
+}
+.card-layanan {
+  height: 313px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 5px;
 }
 .container-img {
   display: flex;
@@ -90,14 +96,38 @@ body {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--pr-hijau);
 }
-.card-layanan {
+.card-layanan h4 {
+  font-size: 24;
+  font-weight: 500;
+  color: var(--pr-hijau);
+}
+.card-layanan p {
+  color: #000;
+}
+
+/*ini hover card*/
+.card-layanan:hover {
   height: 313px;
   padding: 40px;
-  background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
   border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+}
+.card-layanan:hover h4 {
+  font-size: 24;
+  font-weight: 500;
   color: #fff;
+}
+.card-layanan:hover p {
+  color: #fff;
+}
+.card-layanan:hover .container-img {
+  background-color: #fff;
+}
+/*ebd hover card*/
+.dit {
+  color: var(--pr-hijau);
 }
 
 /* end layanan*/
