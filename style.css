@@ -205,11 +205,27 @@ p {
   color: #fff
 }
 .btn-search{
+  width: 200px;
   border: none;
   background-color: transparent;
   color: var(--pr-hijau);
   font-size: 18px;
   font-weight: 400;
   border-radius: 10px;
+  border-right: solid 2px #fff;
+}
+.nav-tabs{
+  border: none;
+}
+.form-control{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.068);
+}
+.form-control::placeholder{
+  color: var(--pr-hijau);
+}
+.form-control:focus{
+  box-shadow: 1px 1px 5px 1px var(--pr-hijau);
+  color: var(--pr-hijau);
 }
 /* end style temukan ruma */
