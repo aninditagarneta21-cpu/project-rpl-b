@@ -232,7 +232,7 @@ p {
 
 /* style rekomendasi ruma */
 #rekomendasi{
-  height: 100vh;
+  height: 180vh;
 }
 .card-rek{
   height: 489px;
@@ -243,4 +243,42 @@ p {
 .card-gbr{
   height: 280px;
 }
+
+.idr{
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.jl{
+  font-size: 14px;
+  font-weight: 400;
+}
+.fasilitas{
+  height: 57px;
+  background-color: #fff;
+}
+.sub-fsi{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+/*card hover*/
+.card-rek:hover {
+  background: linear-gradient(160deg, var(--pr-hijau), #000);
+  transition: all 0.1s ease-in;
+}
+.card-rek:hover h1 {
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+.card-rek:hover p {
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+.card-rek:hover .fasilitas{
+  background: linear-gradient(160deg, var(--pr-hijau), #000);
+  transition: all 0.1s ease-in;
+}
+/*end card hover*/
 /* end style rekomendasi ruma */
