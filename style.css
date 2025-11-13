@@ -231,54 +231,41 @@ p {
 /* end style temukan ruma */
 
 /* style rekomendasi ruma */
-#rekomendasi{
-  height: 180vh;
+.card{
+  height: 460px;
+  border: none;
 }
-.card-rek{
-  height: 489px;
-  width: 380px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-.card-gbr{
-  height: 280px;
-}
-
-.idr{
+.card-body h4{
   font-size: 24px;
-  font-weight: 600;
-  color: #000;
+  font-weight: 500;
+  line-height: .8rem;
 }
-.jl{
+.card-body p{
   font-size: 14px;
   font-weight: 400;
 }
-.fasilitas{
-  height: 57px;
-  background-color: #fff;
+.card-fasilitas{
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
 }
-.sub-fsi{
+.card-fasilitas p{
   font-size: 12px;
   font-weight: 400;
 }
-
-
-/*card hover*/
-.card-rek:hover {
-  background: linear-gradient(160deg, var(--pr-hijau), #000);
-  transition: all 0.1s ease-in;
+.card:hover{
+  background: linear-gradient(160deg, var(--pr-hijau),#05b46e ,#000);
 }
-.card-rek:hover h1 {
+.card:hover .card-body h4{
   color: #fff;
-  transition: all 0.1s ease-in;
 }
-.card-rek:hover p {
+.card:hover .card-body p{
   color: #fff;
-  transition: all 0.1s ease-in;
 }
-.card-rek:hover .fasilitas{
-  background: linear-gradient(160deg, var(--pr-hijau), #000);
-  transition: all 0.1s ease-in;
+.card:hover .card-fasilitas{
+  background-color: #fff;
 }
-/*end card hover*/
 /* end style rekomendasi ruma */

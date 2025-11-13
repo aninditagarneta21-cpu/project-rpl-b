@@ -1,0 +1,91 @@
+:root {
+  --pr-ungu: rgba(59, 19, 238, 0.753);
+}
+body {
+  background-color: #fff;
+}
+
+/*navbar tugas*/
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-link.active {
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.btn-masuk {
+  width: 133px;
+  height: 40px;
+  background-color:var(--pr-ungu);
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.ber{
+    color: #000;
+}
+.s{
+    color: gray;
+}
+
+/*end navbar tugas*/
+/* style hero  */
+#hero {
+  background: linear-gradient(160deg, var(--pr-hijau), #000);
+  height: 100vh;
+}
+.text-hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  line-height: 70px;
+  font-style: bold;
+}
+.warna{
+    color: var(--pr-ungu);
+}
+.text-hero p {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  line-height: 30px;
+  width: 75%;
+}
+
+.btn-lg {
+  width: 237px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--pr-ungu);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+.btn-vid{
+  width: 237px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fff;
+  color: var(--pr-ungu);
+  border: 1px solid var(--pr-ungu);
+  border-radius: 50px;
+}
+img{
+    text-align: center;
+}
+.we{
+    color: #000;
+}
+
+/* end style hero */
