@@ -13,7 +13,6 @@ body {
 .nav-link.active {
   font-size: 16px;
   font-weight: 700;
-  
 }
 .nav-link {
   font-size: 16px;
@@ -23,18 +22,18 @@ body {
 .btn-masuk {
   width: 133px;
   height: 40px;
-  background-color:var(--pr-ungu);
+  background-color: var(--pr-ungu);
   border: none;
   border-radius: 50px;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
 }
-.ber{
-    color: #000;
+.ber {
+  color: #000;
 }
-.s{
-    color: gray;
+.s {
+  color: #000;
 }
 
 /*end navbar tugas*/
@@ -44,14 +43,14 @@ body {
   height: 100vh;
 }
 .text-hero h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   color: #000;
   line-height: 70px;
   font-style: bold;
 }
-.warna{
-    color: var(--pr-ungu);
+.warna {
+  color: var(--pr-ungu);
 }
 .text-hero p {
   font-size: 16px;
@@ -64,28 +63,85 @@ body {
 .btn-lg {
   width: 237px;
   height: 70px;
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 700;
   background-color: var(--pr-ungu);
   color: #fff;
   border: none;
   border-radius: 50px;
 }
-.btn-vid{
+.btn-vid {
   width: 237px;
   height: 70px;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 700;
   background-color: #fff;
   color: var(--pr-ungu);
   border: 1px solid var(--pr-ungu);
   border-radius: 50px;
 }
-img{
-    text-align: center;
+img {
+  text-align: center;
 }
-.we{
-    color: #000;
+.we {
+  color: black;
+  font-style: bold;
+}
+.icon {
+  color: #000;
 }
 
 /* end style hero */
+
+/* style alasan*/
+#alasan {
+  padding: 100px 0;
+  width: 100%;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  font-style: bold;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+.card-body {
+  height: 284px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.1s ease-in;
+}
+.card-body img {
+  height: 70px;
+  width: 70px;
+  border: none;
+  transition: all 0.1s ease-in;
+}
+.card-body h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--pr-hijau);
+  transition: all 0.1s ease-in;
+}
+.card-body p {
+  font-size: 17px;
+  font-weight: 400;
+  color: gray;
+  transition: all 0.1s ease-in;
+}
+/*end style alasan*/
+
+/* style profil*/
+#profil{
+  height: 100vh;
+}
+.img-thumbnail{
+  width: 582px;
+  height: 408;
+}
+/* end stylr profil*/
