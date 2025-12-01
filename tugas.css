@@ -138,10 +138,137 @@ p {
 
 /* style profil*/
 #profil{
-  height: 100vh;
+  padding: 55px 0;
+  width: 100%;
 }
-.img-thumbnail{
-  width: 582px;
-  height: 408;
+.sambutan h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+.sambutan p{
+  font-size: 16px;
+}
+.btn-prfl{
+  height: 62px;
+  width: 212px;
+  background-color: var(--pr-ungu);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+.text-sb{
+  color: var(--pr-ungu);
 }
 /* end stylr profil*/
+
+/* style jurusan*/
+#jurusan{
+  padding: 55px 0;
+  width: 100%;
+}
+.card-juru{
+  height: 220px;
+  border-radius: 5px;
+  background-color: var(--pr-ungu);
+  padding: 30px;
+  transition: all 0.1s ease-in;
+}
+.card-juru img{
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: #fff;
+  transition: all 0.1s ease-in;
+}
+.card-juru h5{
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+.card-juru p{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+/* end style jurusan*/
+
+/* style eskul*/
+#eskul{
+  padding: 100px 0;
+  width: 100%;
+}
+.card-eskul{
+  height: 250px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 15px;
+  transition: all 0.1s ease-in;
+}
+.card-eskul img{
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: #fff;
+  transition: all 0.1s ease-in;
+}
+.lamfim{
+  height: 90px;
+  width: 90px;
+}
+.card-eskul h5{
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+  transition: all 0.1s ease-in;
+}
+.card-eskul p{
+  font-size: 17px;
+  font-weight: 400;
+  color: gray;
+  transition: all 0.1s ease-in;
+}
+/* end style eskul*/
+
+/* style berita*/
+#berita{
+  padding: 100px 0;
+  width: 100%;
+  height: 100vh;
+}
+.card-rita{
+  height: 150px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+  transition: all 0.1s ease-in;
+}
+.card-rita img{
+  height: 90px;
+  width: 90px;
+  border: none;
+  background-color: #fff;
+  transition: all 0.1s ease-in;
+}
+.card-rita h5{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: all 0.1s ease-in;
+}
+.card-rita p{
+  font-size: 10px;
+  font-weight: 400;
+  color: gray;
+  transition: all 0.1s ease-in;
+}
+.card-rita span{
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--pr-ungu);
+  transition: all 0.1s ease-in;
+}
+/* end style berita*/
